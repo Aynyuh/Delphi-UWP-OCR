@@ -279,6 +279,9 @@ begin
   if dragInfo.wasDragged then
     Exit;
 
+  if not Assigned(g_dispImg) then
+    Exit;
+
   { Calculate click point by rotation in the opposite to Ocr angle }
   clickPoint := TPointF.Create(PaintBox1.ScreenToClient(Mouse.CursorPos));
   imgCenter := TPointF.Create(g_dispImg.Width / 2, g_dispImg.Height / 2);
