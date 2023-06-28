@@ -111,9 +111,9 @@ object MainForm: TMainForm
       object Label4: TLabel
         Left = 11
         Top = 113
-        Width = 159
+        Width = 183
         Height = 15
-        Caption = 'Engine maximum demension:'
+        Caption = 'Engine maximum demension (px):'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowFrame
         Font.Height = -12
@@ -137,9 +137,9 @@ object MainForm: TMainForm
       object Label5: TLabel
         Left = 11
         Top = 134
-        Width = 100
+        Width = 124
         Height = 15
-        Caption = 'Loaded image size:'
+        Caption = 'Loaded image size (px):'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowFrame
         Font.Height = -12
